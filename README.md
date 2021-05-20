@@ -54,6 +54,8 @@ class ProductController extends Controller
 
 ## 安裝
 
+此套件基於 PHP 7.4 的 `typed properties` 特性，請確保你的 PHP 更新到最新版本。
+
 ```bash
 composer config repositories.a2workspace/laravel-automount vcs https://github.com/A2Workspace/laravel-automount.git
 composer require "a2workspace/laravel-automount:*"

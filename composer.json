@@ -1,6 +1,7 @@
 {
   "name": "a2workspace/laravel-automount",
   "description": "讓依賴注入更為簡單",
+  "keywords": ["laravel"],
   "license": "MIT",
   "authors": [
     {
@@ -9,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.4"
+    "php": "^7.4|^8.0"
   },
   "require-dev": {
     "orchestra/testbench": "4.x"
