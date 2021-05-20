@@ -3,7 +3,6 @@
 namespace A2Workspace\AutoMount\Support;
 
 use ReflectionClass;
-use ReflectionObject;
 use ReflectionProperty;
 use ReflectionNamedType;
 
@@ -62,46 +61,5 @@ class Reflector
         }
 
         return $name;
-    }
-
-    /**
-     * 取得包含類別名的完整屬性名稱。
-     *
-     * @param  \ReflectionProperty  $property
-     * @return string
-     */
-    public static function getPropertyFullName(ReflectionProperty $property): string
-    {
-        return sprintf(
-            '%s::$%s',
-            $property->getDeclaringClass()->getName(),
-            $property->getName()
-        );
-    }
-
-    /**
-     * 取得物件的動態屬性 (dynamic properties) 列表。
-     *
-     * 回傳一個陣列，包含物件在執行階段宣告的，且未定義為成員的屬性。
-     *
-     * @param  object  $object
-     * @return array
-     */
-    public static function getDynamicProperties(object $object): array
-    {
-        $reflector = new ReflectionObject($object);
-
-        $properties = $reflector->getProperties();
-        $properties = array_filter($properties, function (ReflectionProperty $property) {
-            return ! $property->isDefault();
-        });
-
-        $results = [];
-
-        foreach ($properties as $property) {
-            $results[$property->getName()] = $property->getValue($object);
-        }
-
-        return $results;
     }
 }
