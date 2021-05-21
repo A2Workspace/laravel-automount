@@ -36,8 +36,8 @@ trait AutoMountDependencies
     /**
      * 指定屬性或屬性名稱；嘗試解析它定義的型別，並進行依賴注入。
      *
-     * @param  \ReflectionProperty|string $property
-     * @param  bool $override
+     * @param  \ReflectionProperty|string  $property
+     * @param  bool  $override
      * @return void
      *
      * @throws \ReflectionException
