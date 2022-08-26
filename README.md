@@ -1,5 +1,7 @@
 # Laravel Automount
 
+** 隨著 PHP 8 的新特性增加，你也許已經不需要此套件了，可參考 [Constructor Property Promotion](https://www.php.net/releases/8.0/en.php#constructor-property-promotion) 的作法**
+
 Laravel 的依賴注入很棒，但我們讓他更好！
 
 - [關於](##關於)
