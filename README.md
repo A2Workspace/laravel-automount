@@ -1,7 +1,29 @@
-# Laravel Automount
+<h1 align="center">Laravel Automount</h1>
+<p align="center">
+<a href="https://github.com/A2Workspace/laravel-automount">
+    <img alt="" src="https://github.com/A2Workspace/laravel-automount/actions/workflows/coverage.yml/badge.svg">
+</a>
+<a href="https://github.com/A2Workspace/laravel-automount">
+    <img alt="" src="https://img.shields.io/github/workflow/status/A2Workspace/laravel-automount/tests?style=flat-square">
+</a>
+<a href="https://codecov.io/gh/A2Workspace/laravel-automount">
+    <img alt="" src="https://img.shields.io/codecov/c/github/A2Workspace/laravel-automount.svg?style=flat-square">
+</a>
+<a href="https://github.com/A2Workspace/laravel-automount/blob/master/LICENSE">
+    <img alt="" src="https://img.shields.io/github/license/A2Workspace/laravel-automount?style=flat-square">
+</a>
+<a href="https://packagist.org/packages/a2workspace/laravel-automount">
+    <img alt="" src="https://img.shields.io/packagist/v/a2workspace/laravel-automount.svg?style=flat-square">
+</a>
+<a href="https://packagist.org/packages/a2workspace/laravel-automount">
+    <img alt="" src="https://img.shields.io/packagist/dt/a2workspace/laravel-automount.svg?style=flat-square">
+</a>
+</p>
 
 **隨著 PHP 8 的新特性增加，你也許已經不需要此套件了，可參考 [Constructor Property Promotion](https://www.php.net/releases/8.0/en.php#constructor-property-promotion) 的作法**
 
+<br>
+<br>
 
 Laravel 的依賴注入很棒，但我們讓他更好！
 
